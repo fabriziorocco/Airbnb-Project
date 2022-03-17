@@ -1,11 +1,12 @@
-# Housify
-Housify - The House AI Assistant
+# Airbnb AI Assistant
 
 ## Team A7
 
+![alt text](https://github.com/fabriziorocco/Airbnb-Project/blob/main/data/pict.jpg?raw=true)
+
 ## About
-The recommender system has become an essential element in our world, where it's common for users to confuse due to an abundance of data. Thus, we'd like to solve that problem and help customer to make better decisions.
-We will require additional data related to the features of songs present in the Spotify application for this implementation. Using these features, we will determine the similarity between our playlist and the songs not in our playlist, to get a new playlist recommended.
+There are a growing number of apartments on Airbnb, and it can be 
+very difficult for a new landlord to understand what the similar apartments are, how to price their own correctly and how to know what service is appreciated by the guests. To solve these problems, we have created a platform that landlords can subscribe to so that they can get suggestions and price-range based on similar apartments, and an idea of what services are valued by the customers. Our motivation is based on our interest to use multiple Artificial Intelligence techniques to solve those problems and to create a platform that Airbnb could offer as a paid service.
 
 ### Prerequisites
 
@@ -15,23 +16,26 @@ Before run make sure to install the following packages
 pip install sklearn
 ```
 ```
-pip install spotipy
-```
-```
-pip install matplotlib
-```
-It's also required at least Python 3.x and Numpy, Pandas.
-
-### Running 
-
-The file 
-
-```
-teamA2-spotify.ipynb
+pip install streamlit
 ```
 
-contains the entire notebook to be executed
+It's also required at least Python 3.x and Numpy, Pandas and Folium.
 
+## Run Web App Locally 
+
+### Shell
+
+you can directly run streamlit locally in the repo root folder as follows:
+
+```shell
+$ git clone https://github.com/fabriziorocco/Airbnb-Project.git
+$ cd Airbnb-Project
+$ python -m venv venv
+$ source venv/bin/activate
+$ pip install -r requirements.txt
+$ streamlit run app.py
+```
+Open http://localhost:8501 (or 8502) to view the demo
 
 
 ## Version
@@ -41,7 +45,8 @@ Version 1.0 12-03-22
 ## Authors
 
 * **Fabrizio Rocco** - *ESADE Business School*
-* **Alissa Clémence** - *ESADE Business School*
-* **Viknesh Vivekanandan** - *ESADE Business School*
-* **Justin Loocke** - *ESADE Business School*
-* **Martin Garcia** - *ESADE Business School*
+* **Demi Vinke** - *ESADE Business School*
+* **Damla Yalcin** - *ESADE Business School*
+* **Vincent Stadler** - *ESADE Business School*
+* **Vivien Laurent** - *ESADE Business School*
+
