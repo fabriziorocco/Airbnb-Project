@@ -21,6 +21,8 @@ pip install streamlit
 
 It's also required at least Python 3.x and Numpy, Pandas and Folium.
 
+Please note that for the first running of the app, the data fetching from our servers can require some time (around 5 mins)
+
 ## Run Web App Locally 
 
 ### Shell
